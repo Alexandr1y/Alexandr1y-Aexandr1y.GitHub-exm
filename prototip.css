@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap');
+
+
+*{
+	margin: 5px;
+	padding: 5px;
+}
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+	.container__header{
+        margin: 0 0 0 136px;
+		size: 14px;
+		height: 100px;
+		
+		display: flex;
+	}
+	.menu__ul{
+		
+		
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.menu__item{
+		color: #C3B9B5;
+		font-size: 18px;
+		margin: 0 80px 0 0;
+	}
+	
+
+	
+
+	li{
+		list-style-type: none;
+	}
+	a{
+		text-decoration: none;
+	}
+
+
+     .logotip {
+        margin: -35px 144px 0px 0px;
+    }
+
+    .container__block_1{
+       
+        height: 601px;
+        background:url(foto/IMG_6437\ 1.png) ;
+
+
+    }
+    .nam_doverayt{
+        color: white;
+        margin: 0px 0 136px 438px;
+       font-size: 48px;
+       
+    }
+
+    .nam_doverayt_1{
+        font-size: 48px;
+        color: aliceblue;
+        margin: -105px 0 39px 464px ;
+
+
+
+    }
+    .voplotim{
+        font-size: 16px;
+        color: aliceblue;
+        margin: 223px 0 0 503px ;
+    }
+    
+    .knopca{
+      margin: 20px 0 0 512px;
+            background: #fafafa;
+   width: 328px; 
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #715B4B;
+   
+    }
+    .pozemy_vibiraut{
+        
+        color: #57463A;
+        font-size: 48px;
+        margin: 130px 0 80px 100px;
+    }
+    .davno_big{
+        font-weight: 700;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        
+    }
+    .davno_smol{
+        Weight :400;
+        font-size: 16px
+    }
+    .container__block_2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 260px 0 360px ;
+    }
+    .davno{
+       
+        width: 200px;
+        margin: 50px 0 0 0;
+        
+    }
+
+
+    .galeri{
+        margin: 0 0 0 50px ;
+        display: flex;
+    }
+
+
+    .container__block_3{
+        margin: 0 0 0 100px;
+        width: 1158px;
+        height: 267px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .tabliza{
+        margin: 0 ;
+        border-style: solid;
+        border-width: 1px ;
+        width: 563px;
+        height: 113px;
+    }
+    .tabliza__text{
+        margin: 0 0 0 20px;
+        color: #57463A;
+        font-size: 16px;
+        padding: 76px 0 0 0;
+    }
+    .tabliza__cifra{
+        color: #57463A;
+        margin: -99px 0 8px 484px;
+        font-size: 48px;
+        
+    }
+
+    .knopca__ostavit{
+        margin: 0 0 0 621px;
+        background: #fafafa;
+
+font-family: 'Futura New';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+background:#A1B29F ;
+    }
+    .container__footer{
+        
+        margin: 200px 0 0 0;
+        
+        font-size: 16px;
+       
+        height: 380px;
+        display: flex;
+        color: #F6F6F6;
+        background: #715B4B;
+    }
+    
+    
+
+    .ip{
+        margin: 100px 0 0 100px;
+        width: 248px;
+        height: 48px;
+    }
+    .master{
+        margin: 100px 107px 0 0;
+        width:130px;
+        height: 24px;
+    }
+
+    .kontent{
+        margin: 100px 107px 0 0;
+width: 70px;
+height: 24px;
+    }
+    .politika{
+        margin: 100px 107px 0 0;
+ width:230px;
+        height: 24px;
+    }
+
+    .inst{
+        margin: 100px 86px 0 0;
+
+    }
+    .pozemy_vibiraut_1{
+        color: #57463A;
+        font-size: 48px;
+        margin: 130px 0 80px 100px;
+    }
+    
+@media (max-width: 376px) {
+    .container {
+        
+        max-width: none;
+    }
+
+    .header > .menu {
+        display: none;
+    }
+
+    .header > .burger {
+        display: block;
+    }
+
+    .container__block_1 {
+        height: 682px;
+    }
+    
+    .nam_doverayt_1{
+        margin: 0 0 0 20px;
+    }
+    .voplotim{
+        margin: 221px 0 30px 15px;
+    }
+    .nam_doverayt {
+        margin:0 0 0 20px;
+        text-align: start;
+        font-size: 32px;
+    }
+
+    .knopca {
+        width: 250px;
+
+       margin:  22px 0 0 24px;
+    }
+    .container__block_2{
+        
+        margin: 0 ;
+        display: flex;
+        
+    }
+    .galeri{
+        display: none;
+    }
+    .pozemy_vibiraut{
+        margin: 0;
+    }
+    .container__block_2>img{
+        width: 300px;
+    }
+    .container__block_3{
+       
+        display:grid;
+        margin: 0;
+        
+    }
+    .knopca__ostavit{
+        margin: 0;
+    }
+    .tabliza__cifra{
+        margin:-110px 0 0 250px;
+    }
+    .foto_non{
+        display: none;
+    }
+    .container__block_3>.tabliza{
+        width: 300px;
+    }
+    .pozemy_vibiraut_1{
+        margin: 540px 0 0 0;
+
+    }
+    .knopca__2{
+        margin: 0  ;
+    }
+    .container_kvodrat>img{
+        width: 300px;
+    }
+    
+    .container_rykovodstvo{
+        margin: 0;
+    }
+    .container__block_5{
+        margin: 0 ;
+    }
+    .master__klass{
+        margin: 0 ;
+    }
+    .container__block_7{
+       
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        margin: 0 ;
+    }
+    
+    .mebel>img{
+        width: 300px;
+    }
+    
+    .container__block_6{
+       margin: 111px 0 70px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container__footer{
+        width: 375px;
+height: 773px;
+display: flex;
+flex-direction: column-reverse;
+flex-wrap: wrap;
+
+
+    }
+    .ip{margin:110px 0 0 50px;}
+    .master{margin: 110px 0 0 50px;}
+    .kontent{margin: 110px 0 0 50px;}
+    .politika{margin: 110px 0 0 50px;}
+    .inst{margin: 50px 0 0 50px;}
+
+}
+
+

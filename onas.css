@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap');
+
+
+*{
+	margin: 5px;
+	padding: 5px;
+}
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+	.container__header{
+        margin: 0 0 0 136px;
+		size: 14px;
+		height: 100px;
+		
+		display: flex;
+	}
+	.menu__box{
+		border-style: solid;
+        border-width:0 0  1px 0 ;
+		
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.menu__item{
+		color: #C3B9B5;
+		font-size: 18px;
+		margin: 0 80px 0 0;
+	}
+	
+
+	
+
+	li{
+		list-style-type: none;
+	}
+	a{
+		text-decoration: none;
+	}
+
+
+     .logotip {
+        margin: -35px 144px 0px 0px;
+    }
+	.istoria{
+		color:#57463A ;
+		font-size: 48px;
+		margin: 70px 0 30px 412px;
+	}
+	.nikason{
+		color:#57463A ;
+		font-size: 48px;
+		margin: 0 0 0 500px;
+	}
+	.foto_1{
+		margin: 0 0 0 157px;
+	}
+	.container__block_1{
+		margin: 80px 0 0 189px;
+		display: flex;
+	}
+	.opit{
+		margin: 0 144px 0 0;
+	}
+	.opit_let{
+font-size: 48px;
+color: #57463A;
+	}
+	.opit_text{
+color: #57463A;
+font-size:16px ;
+	}
+	.text__osnova{
+		margin: 0 122px 0 0;
+	}
+	.nikita{
+		font-size: 24px;
+	}
+	.osnovatel{
+		margin: 20px 0 30px 0;
+
+	}
+	.pozemy_vibiraut{
+        
+        color: #57463A;
+        font-size: 48px;
+        margin: 130px 0 80px 100px;
+    }
+	.sozdatel{
+		font-size: 24px;
+		margin: 0 0 0 774px;
+		
+	}
+	.onawei{
+		font-size: 16px;
+		margin: -62px 0 0 108px;
+	}
+	.foto__smi{
+		margin: 40px 0 0 150px ;
+	}
+	.knopca__ostavit{
+        margin: 0 0 0 500px;
+        background: #fafafa;
+
+font-family: 'Futura New';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+background:#A1B29F ;
+    }
+
+	.container__footer{
+        
+        margin: 200px 0 0 0;
+        
+        font-size: 16px;
+       
+        height: 380px;
+        display: flex;
+        color: #F6F6F6;
+        background: #715B4B;
+    }
+    
+    
+
+    .ip{
+        margin: 100px 0 0 100px;
+        width: 248px;
+        height: 48px;
+    }
+    .master{
+        margin: 100px 107px 0 0;
+        width:130px;
+        height: 24px;
+    }
+
+    .kontent{
+        margin: 100px 107px 0 0;
+width: 70px;
+height: 24px;
+    }
+    .politika{
+        margin: 100px 107px 0 0;
+ width:230px;
+        height: 24px;
+    }
+
+    .inst{
+        margin: 100px 86px 0 0;
+
+    }
+	.pozemy_vibiraut_1{
+		color: #57463A;
+        font-size: 48px;
+        margin: 130px 0 80px 100px;
+	}
+  
+	@media (max-width: 376px) {
+		.container {
+			
+			max-width: none;
+		}
+	
+		.header > .menu {
+			display: none;
+		}
+	
+		.header > .burger {
+			display: block;
+		}
+	
+		.container__block_1 {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0;
+			height: 682px;
+		}
+		.istoria{margin:0 0 0 42px;}
+         .nikason{
+			 margin:0 0 0 42px;
+		 }
+		.pozemy_vibiraut_1{
+        margin:756px 0 50px 0;
+		}
+		.knopca__ostavit{
+			margin: 0;
+		}
+		.foto__smi{
+			margin:0 ;
+		}
+		.foto_non{
+			display: none;
+		}
+		.onawei{
+			margin: 0 ;
+		}
+		.sozdatel{
+			margin: 90px -24px 50px 0;
+		}
+	
+		.pozemy_vibiraut{
+			margin: 0;
+		}
+		.foto_1{
+			margin: 0;
+			width: 374px;
+			
+		}
+		.foto_2{
+			width: 374px;
+			height: 462px; ;
+		}
+
+
+
+
+
+
+		.container__footer{
+			width: 375px;
+	height: 773px;
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	
+	
+		}
+		.ip{margin:110px 0 0 50px;}
+		.master{margin: 110px 0 0 50px;}
+		.kontent{margin: 110px 0 0 50px;}
+		.politika{margin: 110px 0 0 50px;}
+		.inst{margin: 50px 0 0 50px;}
+	
+	}
